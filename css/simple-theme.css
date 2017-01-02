@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    color: #222222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #375D81;
+}
+
+a, a:visited {
+    color: #375D81;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #183152;
+}
+
+/* header */
+
+header#banner {
+    background: #375D81;
+    padding: 20px 40px;
+}
+
+header#banner h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+/* nav bar */
+
+nav#bar {
+    background: #ABC8E2;
+}
+
+nav#bar a {
+    color: #183152;
+}
+
+nav#bar a:hover,
+nav#bar a.active {
+    color: #FFFFFF;
+    background: #183152;
+}
+
+/* form */
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form label span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 16px;
+    background: #375D81;
+    border: none;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background: #183152;
+}
+
+/* articles */
+
+section#articles {
+    margin-top: 50px;
+}
+
+section#articles article {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+section#articles article:last-child {
+    border: none;
+}
+
+#articles article p {
+    font-size: 90%;
+    margin-top: 0;
+}
+
+#articles article h4 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: #222222;
+}
+
+/* footer */
+
+footer#rest {
+    padding: 20px 0;
+}
+
+footer#rest span {
+    display: block;
+    padding: 20px 0;
+    border-top: 1px solid #DDDDDD;
+}

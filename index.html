@@ -13,6 +13,7 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/simple-theme.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -25,21 +26,54 @@
         </header>
         <nav id="bar">
             <ul>
-                <li><a href="#">first</a></li>
-                <li><a href="#">second</a></li>
-                <li><a href="#">third</a></li>
+                <li><a class="active" href="#">first</a></li><li><a href="#">second</a></li><li><a href="#">third</a></li>
             </ul>
         </nav>
         <section id="main">
             <h1>Main Section</h1>
-            <p>Main section content</p>
+            <p><strong>Quisque suscipit rutrum sapien nec suscipit.</strong> Nullam mi ipsum, faucibus eu varius vulputate, porttitor vel leo. Mauris non nisi nec ex interdum posuere porta ultricies ante. Donec elementum dui vitae placerat aliquet. Aenean metus libero, consequat et mauris in, viverra sollicitudin dui. Sed mollis varius pretium. Proin semper justo massa, vel rhoncus leo feugiat eget.</p>
+            <section id="articles">
+                <h3>Recent articles</h3>
+                <article>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <p>Maecenas ultricies mollis nulla, vel pulvinar velit pharetra sit amet. Praesent ultrices iaculis nisi laoreet malesuada. Proin non eros id ligula sagittis vestibulum nec eu ipsum. In maximus dapibus iaculis. Mauris sagittis justo id arcu porta, eget auctor dolor sollicitudin. Praesent vitae varius lectus, eu tempus tellus.</p>
+                    <a href="#">Read more</a>
+                </article>
+                <article>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <p>Maecenas ultricies mollis nulla, vel pulvinar velit pharetra sit amet. Praesent ultrices iaculis nisi laoreet malesuada. Proin non eros id ligula sagittis vestibulum nec eu ipsum. In maximus dapibus iaculis. Mauris sagittis justo id arcu porta, eget auctor dolor sollicitudin. Praesent vitae varius lectus, eu tempus tellus.</p>
+                    <a href="#">Read more</a>
+                </article>
+                <article>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <p>Maecenas ultricies mollis nulla, vel pulvinar velit pharetra sit amet. Praesent ultrices iaculis nisi laoreet malesuada. Proin non eros id ligula sagittis vestibulum nec eu ipsum. In maximus dapibus iaculis. Mauris sagittis justo id arcu porta, eget auctor dolor sollicitudin. Praesent vitae varius lectus, eu tempus tellus.</p>
+                    <a href="#">Read more</a>
+                </article>
+                <article>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <p>Maecenas ultricies mollis nulla, vel pulvinar velit pharetra sit amet. Praesent ultrices iaculis nisi laoreet malesuada. Proin non eros id ligula sagittis vestibulum nec eu ipsum. In maximus dapibus iaculis. Mauris sagittis justo id arcu porta, eget auctor dolor sollicitudin. Praesent vitae varius lectus, eu tempus tellus.</p>
+                    <a href="#">Read more</a>
+                </article>
+            </section>
         </section>
         <aside id="extra">
-            <h3>Extra aside</h3>
-            <p>Some additional elements</p>
+            <section id="contact">
+                <h3>Leave a message</h3>
+                <form id="example" action="#" method="post">
+                    <label>
+                        <span>Email address</span>
+                        <input type="email" required autofocus>
+                    </label>
+                    <label>
+                        <span>Message body</span>
+                        <textarea rows="5" required></textarea>
+                    </label>
+                    <button>Send</button>
+                </form>
+            </section>
         </aside>
         <footer id="rest">
-            <address>Here I am</address>
+            <span>Here I am</span>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
